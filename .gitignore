@@ -11,3 +11,5 @@ buildNumber.properties
 .vertx
 *.iml
 db
+
+.project
