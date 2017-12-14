@@ -13,7 +13,7 @@ public class App
     public static void main( String[] args )
     {
 
-    	String json = "{\"name\": \"keesh\"}";
+    	String json = "{\"name\": \"keesh\", \"phone\": \"+8618500183080\", \"address\": \"Beijing & Liyuan\"}";
 
     	String result = null;
 
