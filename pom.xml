@@ -8,6 +8,20 @@
   <name>jfrogwork</name>
   <url>http://maven.apache.org</url>
 
+  
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>ip-172-31-13-187-releases</name>
+            <url>http://52.79.196.68:8081/artifactory/repo-key-private-1</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>ip-172-31-13-187-snapshots</name>
+            <url>http://52.79.196.68:8081/artifactory/repo-key-private-1</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
   <properties>
 
@@ -112,6 +126,8 @@
       </plugin>
 
     </plugins>
+
+
   </build>
 
 </project>
